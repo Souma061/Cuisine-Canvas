@@ -413,13 +413,6 @@ CMD ["npm", "run", "preview"]
 
 ---
 
-## 📚 Documentation Files
-
-- **THEME_SYSTEM_GUIDE.md** - Complete theme system documentation
-- **THEME_TOGGLE_SUMMARY.md** - Quick reference for theme features
-
----
-
 ## 👥 Contributing
 
 Contributions are welcome! Please:
