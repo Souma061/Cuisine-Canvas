@@ -1,0 +1,3112 @@
+{
+  "success": true,
+  "message": "Menu data loaded successfully",
+  "total": 120,
+  "data": [
+    {
+      "id": 1,
+      "name": "Samosa",
+      "category": "Appetizers",
+      "price": 120,
+      "description": "Crispy golden triangular pastry filled with spiced potatoes and peas.",
+      "rating": 4.7,
+      "prepTime": 25,
+      "image": "https://images.pexels.com/photos/9027521/pexels-photo-9027521.jpeg",
+      "isVegetarian": true,
+      "tags": [
+        "crispy",
+        "snack"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Paneer Pakora",
+      "category": "Appetizers",
+      "price": 180,
+      "description": "Soft paneer cubes in spiced batter, deep fried until golden.",
+      "rating": 4.5,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/736x/79/40/ed/7940ed9e56ca28faa34f9fed6c454e8a.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "fried",
+        "paneer"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Vegetable Pakora",
+      "category": "Appetizers",
+      "price": 150,
+      "description": "Mixed vegetables in spiced gram flour batter, deep fried.",
+      "rating": 4.6,
+      "prepTime": 22,
+      "image": "https://i.pinimg.com/1200x/cf/25/d0/cf25d0e5a1c450d289c3805bd5b2acf1.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "fried",
+        "vegetables"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Onion Bhaji",
+      "category": "Appetizers",
+      "price": 130,
+      "description": "Crispy onion fritters with gram flour batter.",
+      "rating": 4.6,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/1200x/b5/2a/65/b52a65088906a0476583b9eb5052ea62.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "fried",
+        "snack"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Batata Vada",
+      "category": "Appetizers",
+      "price": 120,
+      "description": "Spicy potato fritter coated in gram flour.",
+      "rating": 4.6,
+      "prepTime": 18,
+      "image": "https://i.pinimg.com/736x/57/21/9b/57219b0e91ee0b9eb7fac17316b04675.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "fried",
+        "snack"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Vada",
+      "category": "Appetizers",
+      "price": 110,
+      "description": "Soft urad lentil fritter, crispy outside and fluffy inside.",
+      "rating": 4.6,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/1200x/93/e2/7d/93e27d33644bc6ea36356103654cdf63.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "fried",
+        "snack"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Chicken Tikka",
+      "category": "Chicken Appetizers",
+      "price": 220,
+      "description": "Chicken marinated in yogurt and spices, grilled in tandoor.",
+      "rating": 4.8,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/1200x/17/0d/3e/170d3e18d9f5a67d1fd12d0726277787.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "grilled",
+        "chicken"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Tandoori Chicken",
+      "category": "Chicken Appetizers",
+      "price": 210,
+      "description": "Marinated chicken pieces grilled in tandoor.",
+      "rating": 4.7,
+      "prepTime": 28,
+      "image": "https://i.pinimg.com/1200x/18/78/9b/18789b38c2845258a66692e3eeb60755.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "grilled",
+        "chicken"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Shrimp Pakora",
+      "category": "Chicken Appetizers",
+      "price": 240,
+      "description": "Succulent shrimp coated in spiced gram flour.",
+      "rating": 4.7,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/736x/a7/d9/5b/a7d95ba8864e8d192cbbc10ba7747fd2.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "fried",
+        "shrimp"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Fish Pakora",
+      "category": "Chicken Appetizers",
+      "price": 230,
+      "description": "Fresh fish pieces in spiced gram flour batter, deep fried.",
+      "rating": 4.6,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/1200x/93/99/78/939978e7fedbbec365b7f0c58cd29bea.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "fried",
+        "fish"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Lamb Kebab",
+      "category": "Chicken Appetizers",
+      "price": 260,
+      "description": "Minced lamb mixed with spices and grilled.",
+      "rating": 4.7,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/1200x/09/bf/24/09bf24331cc273afa76aeabe85cf2f8b.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "grilled",
+        "lamb"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Naan",
+      "category": "Breads",
+      "price": 60,
+      "description": "Soft, fluffy Indian bread baked in tandoor.",
+      "rating": 4.6,
+      "prepTime": 15,
+      "image": "https://i.pinimg.com/736x/35/6e/a9/356ea95a51eec22af22d0c30e56f9823.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "bread",
+        "tandoori"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Extra Butter",
+          "type": "addon",
+          "price": 30,
+          "required": false
+        },
+        {
+          "id": 2,
+          "name": "Extra Garlic",
+          "type": "addon",
+          "price": 25,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Garlic Naan",
+      "category": "Breads",
+      "price": 80,
+      "description": "Soft naan topped with fresh garlic and cilantro.",
+      "rating": 4.7,
+      "prepTime": 15,
+      "image": "https://i.pinimg.com/1200x/1c/a6/c1/1ca6c100275644142a7e9efb099a59da.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "bread",
+        "garlic"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Extra Butter",
+          "type": "addon",
+          "price": 30,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Paratha",
+      "category": "Breads",
+      "price": 70,
+      "description": "Multi-layered Indian flatbread.",
+      "rating": 4.5,
+      "prepTime": 18,
+      "image": "https://i.pinimg.com/736x/aa/e6/2a/aae62a3eef26996dd2648355f638def6.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "bread",
+        "layered"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Extra Butter",
+          "type": "addon",
+          "price": 30,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Roti",
+      "category": "Breads",
+      "price": 40,
+      "description": "Simple whole wheat Indian bread.",
+      "rating": 4.4,
+      "prepTime": 12,
+      "image": "https://i.pinimg.com/1200x/2a/27/09/2a27096c2010304ec371e3ee9371a070.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "bread",
+        "wheat"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Extra Butter",
+          "type": "addon",
+          "price": 20,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Puri",
+      "category": "Breads",
+      "price": 50,
+      "description": "Deep-fried Indian bread that puffs up beautifully.",
+      "rating": 4.3,
+      "prepTime": 15,
+      "image": "https://images.unsplash.com/photo-1643892467625-65df6a500524?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "isVegetarian": true,
+      "tags": [
+        "bread",
+        "fried"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Extra Butter",
+          "type": "addon",
+          "price": 20,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Paneer Butter Masala",
+      "category": "Pure Veg Curries",
+      "price": 280,
+      "description": "Soft paneer in creamy, buttery tomato sauce.",
+      "rating": 4.9,
+      "prepTime": 35,
+      "image": "https://i.pinimg.com/736x/be/ef/74/beef74528b9acc13872a1269d4bd5274.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "paneer",
+        "creamy"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Extra Paneer",
+          "type": "addon",
+          "price": 80,
+          "required": false
+        },
+        {
+          "id": 3,
+          "name": "Extra Sauce",
+          "type": "addon",
+          "price": 40,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Dal Makhani",
+      "category": "Pure Veg Curries",
+      "price": 220,
+      "description": "Creamy lentil curry slow-cooked with butter and cream.",
+      "rating": 4.7,
+      "prepTime": 45,
+      "image": "https://i.pinimg.com/736x/b0/5e/1b/b05e1bf78f121472db8382520cbaf33e.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "lentil",
+        "creamy"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Aloo Gobi",
+      "category": "Pure Veg Curries",
+      "price": 200,
+      "description": "Potato and cauliflower curry with warm spices.",
+      "rating": 4.5,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/1200x/46/f7/4a/46f74a39aa95fa5050234ef08fde9512.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "vegetables"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Palak Paneer",
+      "category": "Pure Veg Curries",
+      "price": 260,
+      "description": "Spinach and paneer curry - creamy and healthy.",
+      "rating": 4.5,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/1200x/01/1c/85/011c856d6c3e85563f4ed288bee5a875.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "paneer",
+        "spinach"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Extra Paneer",
+          "type": "addon",
+          "price": 80,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Malai Kofta",
+      "category": "Pure Veg Curries",
+      "price": 270,
+      "description": "Paneer and vegetable dumplings in creamy tomato sauce.",
+      "rating": 4.6,
+      "prepTime": 40,
+      "image": "https://i.pinimg.com/1200x/b0/aa/a4/b0aaa4cdf8103e50e74f675f25207332.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "creamy"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Extra Sauce",
+          "type": "addon",
+          "price": 40,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Chana Masala",
+      "category": "Vegetable Curries",
+      "price": 210,
+      "description": "Chickpeas in tangy tomato-based curry.",
+      "rating": 4.6,
+      "prepTime": 32,
+      "image": "https://i.pinimg.com/1200x/80/43/df/8043dff1a636e92c7fc7d83857ddb5be.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "chickpea"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Mushroom Masala",
+      "category": "Vegetable Curries",
+      "price": 240,
+      "description": "Fresh mushrooms in aromatic onion-tomato gravy.",
+      "rating": 4.5,
+      "prepTime": 28,
+      "image": "https://i.pinimg.com/1200x/43/d1/aa/43d1aa54dbf2cdb8085701f9996f0de7.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "mushroom"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Okra Fry",
+      "category": "Vegetable Curries",
+      "price": 210,
+      "description": "Crispy okra cooked with gram flour and spices.",
+      "rating": 4.5,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/1200x/7c/38/ef/7c38efc1290ca87f6a5db3b8db345cd9.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "dry curry",
+        "okra"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Extra Spice",
+          "type": "addon",
+          "price": 20,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Baingan Bharta",
+      "category": "Vegetable Curries",
+      "price": 230,
+      "description": "Roasted eggplant curry with onions and tomatoes.",
+      "rating": 4.4,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/1200x/02/1f/b0/021fb0e5efe7a05b202841479f2708aa.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "eggplant"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Rajma Masala",
+      "category": "Vegetable Curries",
+      "price": 200,
+      "description": "Kidney beans in aromatic spiced tomato gravy.",
+      "rating": 4.4,
+      "prepTime": 35,
+      "image": "https://i.pinimg.com/1200x/f0/d2/0a/f0d20a3f0eb88afe980766c98b478c33.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "beans"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Butter Chicken",
+      "category": "Non-Veg Curries",
+      "price": 320,
+      "description": "Tender chicken in creamy tomato-based sauce.",
+      "rating": 4.9,
+      "prepTime": 40,
+      "image": "https://i.pinimg.com/1200x/2a/86/40/2a864028c6cf41e9d037bdf6e74e07be.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "curry",
+        "chicken",
+        "creamy"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Extra Sauce",
+          "type": "addon",
+          "price": 50,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Chicken Tikka Masala",
+      "category": "Non-Veg Curries",
+      "price": 300,
+      "description": "Tandoori chicken pieces in creamy spiced sauce.",
+      "rating": 4.8,
+      "prepTime": 38,
+      "image": "https://i.pinimg.com/1200x/1d/dd/95/1ddd95f84379d5a5fb861868860ee5ef.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "curry",
+        "chicken"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Chilli Chicken",
+      "category": "Non-Veg Curries",
+      "price": 290,
+      "description": "Chicken pieces tossed in spicy soy-ginger sauce.",
+      "rating": 4.7,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/736x/35/4b/38/354b3838306bf753c0a51f3a0908f261.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "curry",
+        "chicken"
+      ],
+      "cuisine": "Asian-Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Chettinad Chicken",
+      "category": "Non-Veg Curries",
+      "price": 310,
+      "description": "Chicken cooked with aromatic spices and coconut.",
+      "rating": 4.7,
+      "prepTime": 42,
+      "image": "https://i.pinimg.com/736x/2d/91/13/2d9113b94f0e87e3a40c2490c6f7a0f0.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "curry",
+        "chicken"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Chicken Curry",
+      "category": "Non-Veg Curries",
+      "price": 290,
+      "description": "Chicken in traditional South Indian spiced gravy.",
+      "rating": 4.6,
+      "prepTime": 36,
+      "image": "https://i.pinimg.com/1200x/2d/91/13/2d9113b94f0e87e3a40c2490c6f7a0f0.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "curry",
+        "chicken"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Lamb Rogan Josh",
+      "category": "Meat Specialties",
+      "price": 350,
+      "description": "Tender lamb pieces in medium spiced curry.",
+      "rating": 4.6,
+      "prepTime": 45,
+      "image": "https://i.pinimg.com/1200x/9f/b2/e3/9fb2e3908b984e5d3f11b941dd839172.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "curry",
+        "lamb"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Prawn Masala",
+      "category": "Meat Specialties",
+      "price": 340,
+      "description": "Tender prawns in aromatic tomato-based masala.",
+      "rating": 4.7,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/1200x/29/6b/16/296b165ff358efd26f866cff64c14f1d.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "curry",
+        "prawn"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Fish Curry",
+      "category": "Meat Specialties",
+      "price": 320,
+      "description": "Fresh fish in coconut and spice-based curry.",
+      "rating": 4.5,
+      "prepTime": 32,
+      "image": "https://i.pinimg.com/736x/9d/9e/72/9d9e7241e2ce155ba3b1df4830a95405.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "curry",
+        "fish"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Keema",
+      "category": "Meat Specialties",
+      "price": 300,
+      "description": "Minced meat cooked with spices and peas.",
+      "rating": 4.6,
+      "prepTime": 35,
+      "image": "https://i.pinimg.com/736x/11/8e/06/118e063fdf9e82da6932a6d3769bf03d.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "curry",
+        "meat"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Lamb Curry",
+      "category": "Meat Specialties",
+      "price": 330,
+      "description": "Lamb in aromatic and flavorful spiced gravy.",
+      "rating": 4.6,
+      "prepTime": 40,
+      "image": "https://i.pinimg.com/1200x/52/e9/2a/52e92aa9e165e845f057ea0ac6806a23.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "curry",
+        "lamb"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Chicken Biryani",
+      "category": "Rice & Biryanis",
+      "price": 320,
+      "description": "Fragrant basmati rice layered with tender chicken.",
+      "rating": 4.8,
+      "prepTime": 50,
+      "image": "https://i.pinimg.com/736x/c5/d2/62/c5d262f3377da91a7229772026a2ec5c.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "rice",
+        "chicken"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Add Raita (Yogurt)",
+          "type": "addon",
+          "price": 50,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Vegetable Biryani",
+      "category": "Rice & Biryanis",
+      "price": 260,
+      "description": "Fragrant rice biryani with mixed vegetables.",
+      "rating": 4.6,
+      "prepTime": 45,
+      "image": "https://i.pinimg.com/736x/d9/68/72/d9687291cdf24450284204493887f476.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "rice",
+        "vegetables"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Add Raita (Yogurt)",
+          "type": "addon",
+          "price": 50,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Shrimp Biryani",
+      "category": "Rice & Biryanis",
+      "price": 380,
+      "description": "Aromatic basmati rice layered with tender shrimp.",
+      "rating": 4.7,
+      "prepTime": 50,
+      "image": "https://i.pinimg.com/736x/05/74/f9/0574f9624fc5da05430c14489a7ccff3.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "rice",
+        "shrimp"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Mutton Biryani",
+      "category": "Rice & Biryanis",
+      "price": 360,
+      "description": "Premium biryani with tender mutton pieces.",
+      "rating": 4.7,
+      "prepTime": 55,
+      "image": "https://i.pinimg.com/1200x/af/08/ae/af08ae013ac4fa6747ce2aca276083b8.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "rice",
+        "mutton"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Paneer Biryani",
+      "category": "Rice & Biryanis",
+      "price": 290,
+      "description": "Fragrant biryani with cottage cheese and vegetables.",
+      "rating": 4.6,
+      "prepTime": 48,
+      "image": "https://i.pinimg.com/736x/96/5c/59/965c5951d3873530bae4f906a08e226b.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "rice",
+        "paneer"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Lemon Rice",
+      "category": "Flavored Rice",
+      "price": 180,
+      "description": "Fragrant rice tempered with lemon and spices.",
+      "rating": 4.4,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/736x/31/7c/d6/317cd62849557d086aafbdeecc29db70.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "rice",
+        "lemon"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 43,
+      "name": "Coconut Rice",
+      "category": "Flavored Rice",
+      "price": 190,
+      "description": "Rice cooked with fresh grated coconut.",
+      "rating": 4.5,
+      "prepTime": 22,
+      "image": "https://i.pinimg.com/1200x/3c/6e/50/3c6e50fbfa6c6df5baf8b0d6581bbabf.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "rice",
+        "coconut"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 44,
+      "name": "Pulao",
+      "category": "Flavored Rice",
+      "price": 220,
+      "description": "Fragrant rice cooked with vegetables and spices.",
+      "rating": 4.5,
+      "prepTime": 35,
+      "image": "https://i.pinimg.com/1200x/35/27/43/352743384c64f4860610bdbad904bfa6.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "rice",
+        "vegetables"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 45,
+      "name": "Methi Rice",
+      "category": "Flavored Rice",
+      "price": 200,
+      "description": "Fragrant rice with fresh fenugreek leaves.",
+      "rating": 4.4,
+      "prepTime": 22,
+      "image": "https://i.pinimg.com/736x/3f/7e/c9/3f7ec9d72c4682fe56b8b4720ccf797e.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "rice",
+        "methi"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 46,
+      "name": "Vegetable Fried Rice",
+      "category": "Flavored Rice",
+      "price": 200,
+      "description": "Cooked rice stir-fried with colorful vegetables.",
+      "rating": 4.4,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/1200x/57/46/78/57467898f2acaed4cebd1901d30e651b.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "rice",
+        "stir-fried"
+      ],
+      "cuisine": "Asian",
+      "customizations": []
+    },
+    {
+      "id": 47,
+      "name": "Fried Rice",
+      "category": "Asian Rice",
+      "price": 200,
+      "description": "Cooked rice stir-fried with vegetables and spices.",
+      "rating": 4.4,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/736x/ef/aa/10/efaa108ae80ad455135a17518d119218.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "rice",
+        "stir-fried"
+      ],
+      "cuisine": "Asian",
+      "customizations": []
+    },
+    {
+      "id": 48,
+      "name": "Hakka Noodles",
+      "category": "Asian Rice",
+      "price": 210,
+      "description": "Stir-fried noodles with vegetables and soy sauce.",
+      "rating": 4.5,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/736x/e5/53/63/e55363cd63ec1f769a184d8617a832ef.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "noodles",
+        "stir-fried"
+      ],
+      "cuisine": "Asian",
+      "customizations": []
+    },
+    {
+      "id": 49,
+      "name": "Chow Mein",
+      "category": "Asian Rice",
+      "price": 220,
+      "description": "Stir-fried noodles with eggs and spring onions.",
+      "rating": 4.5,
+      "prepTime": 22,
+      "image": "https://i.pinimg.com/736x/c2/e7/21/c2e721dd8638b64ec13cfeaa6051d8e4.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "noodles",
+        "stir-fried"
+      ],
+      "cuisine": "Asian",
+      "customizations": []
+    },
+    {
+      "id": 50,
+      "name": "Egg Fried Rice",
+      "category": "Asian Rice",
+      "price": 210,
+      "description": "Fried rice with scrambled eggs and spring onions.",
+      "rating": 4.5,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/736x/a0/62/20/a06220f4dcb6e80d8e291760360b062b.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "rice",
+        "egg"
+      ],
+      "cuisine": "Asian",
+      "customizations": []
+    },
+    {
+      "id": 51,
+      "name": "Gulab Jamun",
+      "category": "Sweet Desserts",
+      "price": 100,
+      "description": "Soft spongy balls soaked in sugar syrup.",
+      "rating": 4.7,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/1200x/db/8b/a6/db8ba65c756aedc67564fb05cc85c8f9.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "dessert"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 52,
+      "name": "Kheer",
+      "category": "Sweet Desserts",
+      "price": 90,
+      "description": "Creamy rice pudding with cardamom and saffron.",
+      "rating": 4.6,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/736x/f8/30/f5/f830f5f68ea9ab4b9073beec720f6338.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "dessert"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 53,
+      "name": "Rasmalai",
+      "category": "Sweet Desserts",
+      "price": 110,
+      "description": "Soft paneer dumplings in creamy condensed milk.",
+      "rating": 4.6,
+      "prepTime": 35,
+      "image": "https://i.pinimg.com/736x/dc/63/70/dc6370adc4f21c529c87bc1390e73c17.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "dessert"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 54,
+      "name": "Payasam",
+      "category": "Sweet Desserts",
+      "price": 95,
+      "description": "Sweet vermicelli pudding with condensed milk.",
+      "rating": 4.6,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/736x/c3/1b/70/c31b70b84f4c9596c23d12e3cde431e4.jpgm",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "dessert"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 55,
+      "name": "Phirni",
+      "category": "Sweet Desserts",
+      "price": 85,
+      "description": "Creamy rice flour pudding with nuts.",
+      "rating": 4.6,
+      "prepTime": 35,
+      "image": "https://i.pinimg.com/1200x/85/fa/53/85fa53766d57978bb160762e5e7afc57.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "dessert"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 56,
+      "name": "Jalebi",
+      "category": "Fried Sweets",
+      "price": 80,
+      "description": "Spiral-shaped crispy sweet with sugar syrup.",
+      "rating": 4.5,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/736x/8c/b0/0f/8cb00f99b3d875ae75e07d89a7b00aaa.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "dessert"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 57,
+      "name": "Barfi",
+      "category": "Fried Sweets",
+      "price": 90,
+      "description": "Dense milk fudge with nuts and dried fruits.",
+      "rating": 4.5,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/1200x/ac/96/c2/ac96c2dfb6a00807fa48629951921d5d.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "dessert"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 58,
+      "name": "Laddu",
+      "category": "Fried Sweets",
+      "price": 70,
+      "description": "Round sweet balls made from gram flour and ghee.",
+      "rating": 4.4,
+      "prepTime": 15,
+      "image": "https://i.pinimg.com/1200x/77/23/7a/77237ab834becf3fc6f72bc58e87f672.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "dessert"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 59,
+      "name": "Gajar Ka Halwa",
+      "category": "Fried Sweets",
+      "price": 95,
+      "description": "Sweet carrot pudding cooked in ghee and condensed milk.",
+      "rating": 4.6,
+      "prepTime": 40,
+      "image": "https://i.pinimg.com/1200x/93/35/71/9335714b1b3c57d04e04455d5bbc49a1.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "dessert"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 60,
+      "name": "Khir Kadam",
+      "category": "Fried Sweets",
+      "price": 85,
+      "description": "Layered dessert with kheer and condensed milk.",
+      "rating": 4.5,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/736x/3a/5e/d7/3a5ed7fe7a5e392632da7217f217376d.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "dessert"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 61,
+      "name": "Mango Lassi",
+      "category": "Yogurt Drinks",
+      "price": 80,
+      "description": "Sweet yogurt drink with fresh mango puree.",
+      "rating": 4.7,
+      "prepTime": 10,
+      "image": "https://i.pinimg.com/1200x/97/25/ec/9725eca29432bd79fc5dbc34d1dffc75.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "mango"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 62,
+      "name": "Sweet Lassi",
+      "category": "Yogurt Drinks",
+      "price": 70,
+      "description": "Traditional sweet yogurt drink with cardamom.",
+      "rating": 4.5,
+      "prepTime": 8,
+      "image": "https://i.pinimg.com/736x/4e/98/6b/4e986bc30b7f037d12c74e29decd8c48.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "yogurt"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 63,
+      "name": "Strawberry Lassi",
+      "category": "Yogurt Drinks",
+      "price": 85,
+      "description": "Refreshing lassi with fresh strawberries.",
+      "rating": 4.6,
+      "prepTime": 8,
+      "image": "https://i.pinimg.com/736x/16/4a/17/164a1729e94a8c10fd8d3bbd015f4d6d.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "yogurt"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 64,
+      "name": "Pistachio Lassi",
+      "category": "Yogurt Drinks",
+      "price": 90,
+      "description": "Creamy lassi with roasted pistachios.",
+      "rating": 4.6,
+      "prepTime": 10,
+      "image": "https://i.pinimg.com/736x/fb/a0/bc/fba0bcbf553d18b190f8c1d4a68e2ada.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "yogurt"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 65,
+      "name": "Buttermilk",
+      "category": "Yogurt Drinks",
+      "price": 45,
+      "description": "Cool traditional buttermilk with cumin.",
+      "rating": 4.3,
+      "prepTime": 5,
+      "image": "https://i.pinimg.com/1200x/cb/eb/7b/cbeb7b540183e5a9dbea234cdad179b6.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "yogurt"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 66,
+      "name": "Masala Chai",
+      "category": "Tea & Coffee",
+      "price": 50,
+      "description": "Aromatic tea brewed with milk and spices.",
+      "rating": 4.6,
+      "prepTime": 12,
+      "image": "https://i.pinimg.com/1200x/47/0e/af/470eafe34fa2c0a00709173588b1dba6.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "tea"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 67,
+      "name": "Ginger Lemon Tea",
+      "category": "Tea & Coffee",
+      "price": 55,
+      "description": "Warm tea infused with fresh ginger and lemon.",
+      "rating": 4.4,
+      "prepTime": 10,
+      "image": "https://i.pinimg.com/736x/25/87/ad/2587ad887f485060ced6fa8f902581b1.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "tea"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 68,
+      "name": "Iced Tea",
+      "category": "Tea & Coffee",
+      "price": 65,
+      "description": "Refreshing iced tea with mint and lemon.",
+      "rating": 4.5,
+      "prepTime": 8,
+      "image": "https://i.pinimg.com/736x/aa/8d/2d/aa8d2de36c7e1cace188932bb0d9a7e4.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "tea",
+        "cold"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 69,
+      "name": "Black Coffee",
+      "category": "Tea & Coffee",
+      "price": 60,
+      "description": "Strong and aromatic black coffee.",
+      "rating": 4.4,
+      "prepTime": 8,
+      "image": "https://i.pinimg.com/736x/35/75/cf/3575cfc5a40e5fccad168a1514b09ed3.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "coffee"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 70,
+      "name": "Cold Coffee",
+      "category": "Tea & Coffee",
+      "price": 85,
+      "description": "Iced coffee with milk and a hint of sweetness.",
+      "rating": 4.6,
+      "prepTime": 10,
+      "image": "https://i.pinimg.com/736x/fd/a9/ad/fda9ad56b9d62070fec105cd93693129.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "coffee",
+        "cold"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 71,
+      "name": "Fresh Mango Juice",
+      "category": "Fresh Juices",
+      "price": 90,
+      "description": "Fresh pressed mango juice - sweet and nutritious.",
+      "rating": 4.5,
+      "prepTime": 5,
+      "image": "https://i.pinimg.com/736x/87/04/87/87048707fa7d904ce5367c28ad33d1a5.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "juice"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 72,
+      "name": "Sugarcane Juice",
+      "category": "Fresh Juices",
+      "price": 75,
+      "description": "Fresh sugarcane juice with lime and ginger.",
+      "rating": 4.6,
+      "prepTime": 5,
+      "image": "https://i.pinimg.com/736x/9c/06/d1/9c06d13d5cf4081d72d6d0f2e731ab57.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "juice"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 73,
+      "name": "Fresh Lemonade",
+      "category": "Fresh Juices",
+      "price": 60,
+      "description": "Freshly squeezed lemon juice with water and sugar.",
+      "rating": 4.4,
+      "prepTime": 5,
+      "image": "https://i.pinimg.com/736x/93/ee/20/93ee20287f13f86937f425ac053b7a21.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "lemon"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 74,
+      "name": "Watermelon Juice",
+      "category": "Fresh Juices",
+      "price": 70,
+      "description": "Refreshing fresh watermelon juice.",
+      "rating": 4.5,
+      "prepTime": 5,
+      "image": "https://i.pinimg.com/736x/e4/7a/70/e47a705d102623adcf6046ee369b6176.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "juice"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 75,
+      "name": "Orange Juice",
+      "category": "Fresh Juices",
+      "price": 80,
+      "description": "Freshly squeezed orange juice.",
+      "rating": 4.5,
+      "prepTime": 5,
+      "image": "https://i.pinimg.com/736x/f8/56/5b/f8565b7442a9df396adc387c8555d8b4.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "beverage",
+        "juice"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 76,
+      "name": "Tandoori Mushroom",
+      "category": "Grilled Specialties",
+      "price": 160,
+      "description": "Fresh mushroom pieces marinated in tandoori spices, grilled.",
+      "rating": 4.3,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/1200x/dd/dc/98/dddc980f84b339577fa8827d2c08f3bc.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "grilled",
+        "mushroom"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 77,
+      "name": "Paneer Tikka",
+      "category": "Grilled Specialties",
+      "price": 200,
+      "description": "Paneer cubes marinated in yogurt and spices, grilled.",
+      "rating": 4.6,
+      "prepTime": 28,
+      "image": "https://i.pinimg.com/736x/4b/e5/35/4be535b86d5ec80f73177ef81e46de49.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "grilled",
+        "paneer"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 78,
+      "name": "Shrimp Tikka",
+      "category": "Grilled Specialties",
+      "price": 280,
+      "description": "Marinated shrimp skewers grilled in tandoor.",
+      "rating": 4.7,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/1200x/ee/c9/8f/eec98fb63940ccc154e4f58cb72c0de6.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "grilled",
+        "shrimp"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Mixed Grill",
+      "category": "Grilled Specialties",
+      "price": 350,
+      "description": "Assorted grilled paneer, mushroom, and chicken.",
+      "rating": 4.7,
+      "prepTime": 35,
+      "image": "https://i.pinimg.com/1200x/1c/ba/2c/1cba2c21c7c2eed9a9dc226c3a5f7f4a.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "grilled",
+        "mixed"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 80,
+      "name": "Fish Tikka",
+      "category": "Grilled Specialties",
+      "price": 270,
+      "description": "Fresh fish pieces marinated and grilled in tandoor.",
+      "rating": 4.6,
+      "prepTime": 28,
+      "image": "https://i.pinimg.com/1200x/fb/83/92/fb83926c7b1080cac90507909df839d0.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "grilled",
+        "fish"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Panipuri",
+      "category": "Street Food",
+      "price": 100,
+      "description": "Crispy puris filled with potatoes, chickpeas and spiced water.",
+      "rating": 4.5,
+      "prepTime": 15,
+      "image": "https://i.pinimg.com/736x/32/3d/ee/323dee28eb6a34671b2dbda556dc4455.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "snack",
+        "street food"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 82,
+      "name": "Chaat Papri",
+      "category": "Street Food",
+      "price": 120,
+      "description": "Mixture of crispy crust with potatoes and chickpeas.",
+      "rating": 4.6,
+      "prepTime": 12,
+      "image": "https://i.pinimg.com/736x/8a/2c/53/8a2c53c20e180ff3dfc72cfb452c34f6.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "snack",
+        "street food"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 83,
+      "name": "Aloo Tikki",
+      "category": "Street Food",
+      "price": 110,
+      "description": "Crispy potato cutlet with tangy chutneys.",
+      "rating": 4.5,
+      "prepTime": 15,
+      "image": "https://i.pinimg.com/736x/ba/fd/6e/bafd6efce906fd6d7d1b511114de7258.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "snack",
+        "street food"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 84,
+      "name": "Dahi Bhalle",
+      "category": "Street Food",
+      "price": 90,
+      "description": "Soft lentil fritters soaked in yogurt with spices.",
+      "rating": 4.4,
+      "prepTime": 10,
+      "image": "https://i.pinimg.com/736x/de/38/b5/de38b50ab82d14979be642e8a7f644b1.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "snack",
+        "street food"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 85,
+      "name": "Samosa Chaat",
+      "category": "Street Food",
+      "price": 130,
+      "description": "Samosa served with yogurt, chutneys, and spices.",
+      "rating": 4.6,
+      "prepTime": 12,
+      "image": "https://i.pinimg.com/1200x/7b/20/08/7b2008cb12ec1f7b6b69512bbb9deab3.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "snack",
+        "street food"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 86,
+      "name": "Cheese Naan",
+      "category": "Specialty Breads",
+      "price": 100,
+      "description": "Naan stuffed with melted cheese and herbs.",
+      "rating": 4.6,
+      "prepTime": 18,
+      "image": "https://i.pinimg.com/736x/ae/03/48/ae034879801d1c56dda5202945559923.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "bread",
+        "cheese"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 87,
+      "name": "Bhature",
+      "category": "Specialty Breads",
+      "price": 90,
+      "description": "Large fluffy fried bread, typically paired with chickpea curry.",
+      "rating": 4.5,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/736x/33/78/b9/3378b99fdb71d83ccd2204fe4d7fdcb8.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "bread",
+        "fried"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 88,
+      "name": "Rumali Roti",
+      "category": "Specialty Breads",
+      "price": 45,
+      "description": "Paper-thin Indian bread folded like a letter.",
+      "rating": 4.4,
+      "prepTime": 12,
+      "image": "https://i.pinimg.com/736x/de/a5/06/dea506793ef115fd0e7a44d4e9051d7d.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "bread",
+        "thin"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 89,
+      "name": "Amritsari Kulcha",
+      "category": "Specialty Breads",
+      "price": 80,
+      "description": "Stuffed flatbread with paneer or vegetables.",
+      "rating": 4.5,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/736x/0a/37/ed/0a37edb6962d26526b658e378a170ec2.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "bread",
+        "stuffed"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 90,
+      "name": "Lachha Paratha",
+      "category": "Specialty Breads",
+      "price": 75,
+      "description": "Layered paratha with crispy edges.",
+      "rating": 4.6,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/736x/47/89/7f/47897f8a800f5ad65fe82b93514c35fd.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "bread",
+        "layered"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 91,
+      "name": "Rogan Josh Paneer",
+      "category": "Spinach Specials",
+      "price": 270,
+      "description": "Paneer in aromatic Kashmiri spiced gravy.",
+      "rating": 4.6,
+      "prepTime": 35,
+      "image": "https://i.pinimg.com/736x/ff/dd/99/ffdd993c2fcbd30d67aec093d282b2e2.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "paneer"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 92,
+      "name": "Shahi Paneer",
+      "category": "Spinach Specials",
+      "price": 280,
+      "description": "Paneer in rich cream and tomato-based royal gravy.",
+      "rating": 4.7,
+      "prepTime": 35,
+      "image": "https://i.pinimg.com/736x/81/44/11/814411b5168371b764c738d8b64fd782.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "paneer",
+        "creamy"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 93,
+      "name": "Matar Paneer",
+      "category": "Spinach Specials",
+      "price": 240,
+      "description": "Paneer with green peas in tomato-based sauce.",
+      "rating": 4.5,
+      "prepTime": 28,
+      "image": "https://i.pinimg.com/736x/47/3c/ac/473cac7258421fa99725ae00b3abc187.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "paneer"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 94,
+      "name": "Kashmiri Dum Paneer",
+      "category": "Spinach Specials",
+      "price": 300,
+      "description": "Paneer slow-cooked in Kashmiri spices and saffron.",
+      "rating": 4.7,
+      "prepTime": 40,
+      "image": "https://i.pinimg.com/736x/59/e0/5a/59e05a803cc2a13d650908b5b028add6.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "paneer"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 95,
+      "name": "Paneer Do Pyaza",
+      "category": "Spinach Specials",
+      "price": 260,
+      "description": "Paneer with lots of onions in aromatic curry.",
+      "rating": 4.5,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/1200x/ac/35/73/ac3573b18441f66607d0d484d2fc078d.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "paneer"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 96,
+      "name": "Matar Aloo",
+      "category": "Garden Vegetables",
+      "price": 180,
+      "description": "Green peas and potatoes in onion-tomato gravy.",
+      "rating": 4.4,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/736x/6c/f5/f9/6cf5f9fdcfbdd65317f4f68b87788a37.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "vegetables"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 97,
+      "name": "Tind Do Pyaza",
+      "category": "Garden Vegetables",
+      "price": 200,
+      "description": "Bottle gourd with lots of onions and spices.",
+      "rating": 4.3,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/736x/a2/6b/51/a26b512259f27f3a8618c6d970a0f1f2.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "vegetables"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 98,
+      "name": "Arbi Fry",
+      "category": "Garden Vegetables",
+      "price": 210,
+      "description": "Taro root cooked with gram flour and spices.",
+      "rating": 4.5,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/736x/a3/0a/e7/a30ae7a4089b5fefcd21a06b4fbff1fd.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "dry curry",
+        "vegetables"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Extra Spice",
+          "type": "addon",
+          "price": 20,
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Gobi Do Pyaza",
+      "category": "Garden Vegetables",
+      "price": 190,
+      "description": "Cauliflower with lots of onions in spiced gravy.",
+      "rating": 4.4,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/1200x/50/22/77/502277485df9e8af3da34efbb3cbc529.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "vegetables"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Mixed Vegetable Curry",
+      "category": "Garden Vegetables",
+      "price": 210,
+      "description": "Mixed vegetables in aromatic tomato-based sauce.",
+      "rating": 4.4,
+      "prepTime": 28,
+      "image": "https://i.pinimg.com/736x/24/81/3c/24813c88578517aa67abd5331822257d.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "curry",
+        "vegetables"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 101,
+      "name": "Lamb Biryani",
+      "category": "Premium Biryanis",
+      "price": 370,
+      "description": "Fragrant biryani with tender lamb pieces.",
+      "rating": 4.7,
+      "prepTime": 58,
+      "image": "https://i.pinimg.com/736x/2f/12/95/2f12954240bcf80e9c02f5deb671000f.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "rice",
+        "lamb"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Goat Biryani",
+      "category": "Premium Biryanis",
+      "price": 400,
+      "description": "Premium biryani with tender goat meat.",
+      "rating": 4.8,
+      "prepTime": 60,
+      "image": "https://i.pinimg.com/736x/96/15/d1/9615d1db6143c9642f6d585616b97e26.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "rice",
+        "goat"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Paneer Tikka Biryani",
+      "category": "Premium Biryanis",
+      "price": 320,
+      "description": "Biryani with grilled paneer tikka pieces.",
+      "rating": 4.6,
+      "prepTime": 50,
+      "image": "https://i.pinimg.com/736x/dc/e3/a4/dce3a493d5db0110d05050304f284ee4.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "rice",
+        "paneer",
+        "biryani"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Mixed Non-Veg Biryani",
+      "category": "Premium Biryanis",
+      "price": 380,
+      "description": "Biryani with chicken, lamb, and shrimp.",
+      "rating": 4.7,
+      "prepTime": 55,
+      "image": "https://i.pinimg.com/736x/d9/33/ec/d933ecb95a17ef2bfd234d8e4988e62b.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "rice",
+        "biryani"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Royal Veg Biryani",
+      "category": "Premium Biryanis",
+      "price": 310,
+      "description": "Special biryani with paneer, vegetables, and fruits.",
+      "rating": 4.6,
+      "prepTime": 50,
+      "image": "https://i.pinimg.com/736x/66/bd/e6/66bde69374895a7bd6b1ba3df4413fe7.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "rice",
+        "biryani"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Momos",
+      "category": "Snacks",
+      "price": 150,
+      "description": "Steamed dumplings filled with vegetables or meat.",
+      "rating": 4.5,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/1200x/e8/35/ed/e835ed89023c2a6d2d1933321d59efc4.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "snack",
+        "steamed"
+      ],
+      "cuisine": "Asian",
+      "customizations": []
+    },
+    {
+      "id": 107,
+      "name": "Vada Pav",
+      "category": "Snacks",
+      "price": 80,
+      "description": "Crispy potato fritter wrapped in a bread bun.",
+      "rating": 4.5,
+      "prepTime": 15,
+      "image": "https://i.pinimg.com/1200x/70/6d/0d/706d0d22aa860b5e5ea12f71e0684a05.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "snack",
+        "fried"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 108,
+      "name": "Kachumber Salad",
+      "category": "Snacks",
+      "price": 100,
+      "description": "Fresh vegetable salad with lemon dressing.",
+      "rating": 4.3,
+      "prepTime": 8,
+      "image": "https://i.pinimg.com/736x/84/ec/1c/84ec1c74ec1e3089868a7722a102c117.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "salad",
+        "fresh"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 109,
+      "name": "Spring Rolls",
+      "category": "Snacks",
+      "price": 140,
+      "description": "Crispy rolls filled with mixed vegetables.",
+      "rating": 4.4,
+      "prepTime": 22,
+      "image": "https://i.pinimg.com/736x/38/7b/45/387b4507d97519ea14ad360af95740d3.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "fried",
+        "vegetables"
+      ],
+      "cuisine": "Asian",
+      "customizations": []
+    },
+    {
+      "id": 110,
+      "name": "Corn Chips",
+      "category": "Snacks",
+      "price": 120,
+      "description": "Crispy corn-based snack with spices.",
+      "rating": 4.4,
+      "prepTime": 10,
+      "image": "https://i.pinimg.com/736x/96/c3/3e/96c33e68f9d56c06aa3376a3d222a236.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "snack",
+        "crispy"
+      ],
+      "cuisine": "Asian",
+      "customizations": []
+    },
+    {
+      "id": 111,
+      "name": "Tandoori Fish",
+      "category": "Fish Specialties",
+      "price": 340,
+      "description": "Whole fish marinated in tandoori spices and grilled.",
+      "rating": 4.7,
+      "prepTime": 35,
+      "image": "https://i.pinimg.com/736x/fb/83/92/fb83926c7b1080cac90507909df839d0.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "grilled",
+        "fish"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "Fish Amritsari",
+      "category": "Fish Specialties",
+      "price": 330,
+      "description": "Deep-fried fish in gram flour coating.",
+      "rating": 4.6,
+      "prepTime": 25,
+      "image": "https://i.pinimg.com/736x/59/c7/3a/59c73a72a5e1b878e57c25ba3a82bde1.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "fried",
+        "fish"
+      ],
+      "cuisine": "Indian",
+      "customizations": [
+        {
+          "id": 1,
+          "name": "Spice Level",
+          "type": "select",
+          "required": false,
+          "options": [
+            {
+              "label": "Mild",
+              "price": 0
+            },
+            {
+              "label": "Medium",
+              "price": 0
+            },
+            {
+              "label": "Hot",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "Mahi Tikka",
+      "category": "Fish Specialties",
+      "price": 300,
+      "description": "Fish tikka in creamy tomato-based masala.",
+      "rating": 4.6,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/736x/34/a1/02/34a1025d455e34a6a571bbd03763361d.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "curry",
+        "fish"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 114,
+      "name": "Pomfret Fry",
+      "category": "Fish Specialties",
+      "price": 360,
+      "description": "Pomfret fish cooked in spiced gram flour.",
+      "rating": 4.7,
+      "prepTime": 30,
+      "image": "https://i.pinimg.com/736x/26/6a/88/266a88aad516f22ee2c929d1bb302a2a.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "fried",
+        "fish"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 115,
+      "name": "Prawn Fry",
+      "category": "Fish Specialties",
+      "price": 350,
+      "description": "Crispy fried prawns with aromatic spices.",
+      "rating": 4.7,
+      "prepTime": 20,
+      "image": "https://i.pinimg.com/736x/bc/1e/2d/bc1e2d17bcb7bca8ad724bddb2aa9cec.jpg",
+      "isVegetarian": false,
+      "tags": [
+        "fried",
+        "prawn"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 116,
+      "name": "Kesar Pista Kulfi",
+      "category": "Frozen Desserts",
+      "price": 60,
+      "description": "Saffron and pistachio flavored frozen dessert.",
+      "rating": 4.6,
+      "prepTime": 5,
+      "image": "https://i.pinimg.com/736x/56/00/39/560039db769c62b3189332a9f42789e3.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "frozen"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 117,
+      "name": "Mango Kulfi",
+      "category": "Frozen Desserts",
+      "price": 50,
+      "description": "Creamy mango flavored frozen dessert.",
+      "rating": 4.5,
+      "prepTime": 5,
+      "image": "https://i.pinimg.com/736x/fd/52/ab/fd52abfddfd859585859c3cc7f5b432d.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "frozen"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 118,
+      "name": "Ice Cream Bowl",
+      "category": "Frozen Desserts",
+      "price": 120,
+      "description": "Mixed ice cream with toppings and nuts.",
+      "rating": 4.6,
+      "prepTime": 5,
+      "image": "https://i.pinimg.com/736x/4f/da/0e/4fda0e3c8a8d2d90e7747265c31b6814.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "frozen"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 119,
+      "name": "Shahi Tukda",
+      "category": "Frozen Desserts",
+      "price": 100,
+      "description": "Fried bread soaked in condensed milk and topped with ice cream.",
+      "rating": 4.7,
+      "prepTime": 15,
+      "image": "https://i.pinimg.com/736x/fe/3f/58/fe3f58a8c085afa9bc56644f590b38eb.jpg",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "frozen"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    },
+    {
+      "id": 120,
+      "name": "Faluda",
+      "category": "Frozen Desserts",
+      "price": 110,
+      "description": "Sweet noodles with milk and ice cream.",
+      "rating": 4.6,
+      "prepTime": 12,
+      "image": "https://imgs.search.brave.com/-BOXY_sruJu-oQC-prj_V_49p8jycUdoXOYxZ8ilxok/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTgy/MTAwNDg2L3Bob3Rv/L21hbmdvLWZhbG9v/ZGEtZmFsdWRhLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1t/cVFmZE1kR1puS3VU/Ukt1SUw2Z1ZmdmZE/bW5SV0pTZXh6VEJp/ZENnMWE4PQ",
+      "isVegetarian": true,
+      "tags": [
+        "sweet",
+        "frozen"
+      ],
+      "cuisine": "Indian",
+      "customizations": []
+    }
+  ]
+}
