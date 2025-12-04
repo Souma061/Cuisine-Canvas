@@ -2,9 +2,9 @@ import "./Header.css";
 
 /**
  * Header Component
- * Top navigation bar with logo, branding, and cart button
+ * Top navigation bar with logo, branding, theme toggle, and cart button
  */
-const Header = ({ cartItemCount, onCartClick }) => {
+const Header = ({ cartItemCount, onCartClick, theme, onThemeToggle }) => {
   return (
     <header className="header">
       <div className="header-container">
@@ -21,6 +21,16 @@ const Header = ({ cartItemCount, onCartClick }) => {
         <div className="header-tagline">
           <p>Discover exquisite flavors crafted with passion</p>
         </div>
+
+        {/* Theme Toggle Button */}
+        <button
+          className="theme-toggle-btn"
+          onClick={onThemeToggle}
+          title={`Switch to ${theme === "light" ? "dark" : "light"} theme`}
+          aria-label="Toggle theme"
+        >
+          {theme === "light" ? "🌙" : "☀️"}
+        </button>
 
         {/* Cart Button */}
         <button

@@ -8,6 +8,7 @@ import LoadingScreen from "./components/LoadingScreen";
 import MenuCategories from "./components/MenuCategories";
 import { CartProvider, useCartContext } from "./context/CartContext";
 import menuData from "./data/menu.json";
+import { useTheme } from "./hooks/useTheme";
 
 /**
  * Main App Component
@@ -18,6 +19,7 @@ function AppContent() {
   const [isCustomizationOpen, setIsCustomizationOpen] = useState(false);
   const [selectedMenuItem, setSelectedMenuItem] = useState(null);
   const cart = useCartContext();
+  const { theme, toggleTheme } = useTheme();
 
   const handleAddItem = (menuItem) => {
     setSelectedMenuItem(menuItem);
@@ -41,6 +43,8 @@ function AppContent() {
       <Header
         cartItemCount={cart.getCartCount()}
         onCartClick={() => setIsCartOpen(true)}
+        theme={theme}
+        onThemeToggle={toggleTheme}
       />
 
       {/* Main Content */}

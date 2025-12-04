@@ -117,6 +117,17 @@
   font-weight: 500;
 }
 
+.customization-cost-info {
+  padding: 12px;
+  background: #f0f7f0;
+  border-left: 3px solid #4caf50;
+  border-radius: 4px;
+  margin: 12px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
 .customization-preview {
   margin: 0;
   color: #d4a574;
@@ -163,9 +174,10 @@
   align-items: center;
   cursor: pointer;
   padding: 10px 12px;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-radius: 6px;
   transition: all 0.2s ease;
+  background: #fafafa;
 }
 
 .option-label:hover {
@@ -189,10 +201,25 @@
   color: #333;
 }
 
+.option-label input[type="radio"]:checked {
+  accent-color: #4caf50;
+}
+
 .option-label input[type="radio"]:checked ~ .option-text,
 .addon-label input[type="checkbox"]:checked ~ .addon-text {
   color: #d4a574;
   font-weight: 500;
+}
+
+/* Enhanced visual feedback for selected radio buttons */
+.option-label input[type="radio"]:checked {
+  filter: drop-shadow(0 0 3px rgba(76, 175, 80, 0.5));
+}
+
+.option-label:has(input[type="radio"]:checked) {
+  border-color: #4caf50;
+  background: #f0f7f0;
+  box-shadow: inset 0 0 0 1px rgba(76, 175, 80, 0.2);
 }
 
 .addon-label {
@@ -200,9 +227,10 @@
   align-items: center;
   cursor: pointer;
   padding: 10px 12px;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-radius: 6px;
   transition: all 0.2s ease;
+  background: #fafafa;
 }
 
 .addon-label:hover {
@@ -226,6 +254,18 @@
 .addon-label input[type="checkbox"]:checked ~ .addon-text {
   color: #d4a574;
   font-weight: 500;
+}
+
+/* Enhanced visual feedback for checked addons */
+.addon-label input[type="checkbox"]:checked {
+  accent-color: #4caf50;
+  filter: drop-shadow(0 0 3px rgba(76, 175, 80, 0.5));
+}
+
+.addon-label:has(input[type="checkbox"]:checked) {
+  border-color: #4caf50;
+  background: #f0f7f0;
+  box-shadow: inset 0 0 0 1px rgba(76, 175, 80, 0.2);
 }
 
 .price {
@@ -279,11 +319,14 @@
 .qty-btn:hover:not(:disabled) {
   background: #d4a574;
   color: white;
+  box-shadow: 0 2px 8px rgba(212, 165, 116, 0.3);
 }
 
 .qty-btn:disabled {
-  opacity: 0.5;
+  opacity: 0.4;
   cursor: not-allowed;
+  background: #e8e8e8;
+  color: #999;
 }
 
 .qty-value {

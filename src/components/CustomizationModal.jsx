@@ -75,6 +75,15 @@ const CustomizationModal = ({ menuItem, onClose, onAddToCart }) => {
         <div className="modal-item-info">
           <h2>{menuItem.name}</h2>
           <p className="description">{menuItem.description}</p>
+
+          {/* Show customization cost breakdown */}
+          {Object.keys(customizations).length > 0 &&
+            unitPrice > menuItem.price && (
+              <div className="customization-cost-info">
+                Customization Cost: +₹{(unitPrice - menuItem.price).toFixed(2)}
+              </div>
+            )}
+
           {customizationDisplay && (
             <p className="customization-preview">{customizationDisplay}</p>
           )}

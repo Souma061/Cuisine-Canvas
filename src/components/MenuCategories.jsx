@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
+import MenuCard from "./MenuCard";
 import "./MenuCategories.css";
-import MenuItem from "./MenuItem";
 
 /**
  * MenuCategories Component
@@ -117,7 +117,7 @@ const MenuCategories = ({ menuItems, onAddItem }) => {
             <h2 className="category-title">{displayCategory}</h2>
             <div className="items-grid">
               {itemsToDisplay.map((item) => (
-                <MenuItem
+                <MenuCard
                   key={item.id}
                   item={item}
                   onAddClick={() => onAddItem(item)}
