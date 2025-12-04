@@ -29,23 +29,17 @@
 }
 
 .logo {
-  font-size: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 56px;
   height: 56px;
-  background: linear-gradient(135deg, #ff6b35, #ff8c5a);
-  border-radius: 14px;
-  backdrop-filter: blur(10px);
+  object-fit: contain;
+  border-radius: 12px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 8px 16px rgba(255, 107, 53, 0.3);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
 }
 
 .logo:hover {
-  background: linear-gradient(135deg, #ff8c5a, #f7931e);
   transform: scale(1.08) rotate(5deg);
-  box-shadow: 0 12px 24px rgba(255, 107, 53, 0.4);
+  filter: drop-shadow(0 6px 12px rgba(255, 107, 53, 0.3));
 }
 
 .brand-info {

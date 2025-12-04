@@ -1,3 +1,4 @@
+import cuisineLogo from "../assets/Cuisine.png";
 import "./Header.css";
 
 const Header = ({ cartItemCount, onCartClick, theme, onThemeToggle }) => {
@@ -5,7 +6,7 @@ const Header = ({ cartItemCount, onCartClick, theme, onThemeToggle }) => {
     <header className="header">
       <div className="header-container">
         <div className="logo-section">
-          <div className="logo">🍽️</div>
+          <img src={cuisineLogo} alt="Cuisine Canvas Logo" className="logo" />
           <div className="brand-info">
             <h1 className="brand-name">Cuisine Canvas</h1>
             <p className="brand-tagline">Explore Culinary Masterpieces</p>

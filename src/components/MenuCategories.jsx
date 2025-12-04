@@ -104,10 +104,9 @@ const MenuCategories = ({ menuItems, onAddItem }) => {
           value={searchTerm}
           onChange={(e) => {
             setSearchTerm(e.target.value);
-            setActiveCategory(null); // Reset category on search
+            setActiveCategory(null);
           }}
         />
-        <span className="search-icon">🔍</span>
       </div>
 
       {/* Category Tabs */}
@@ -124,9 +123,8 @@ const MenuCategories = ({ menuItems, onAddItem }) => {
             {filteredCategories.map((category) => (
               <button
                 key={category}
-                className={`category-tab ${
-                  displayCategory === category ? "active" : ""
-                }`}
+                className={`category-tab ${displayCategory === category ? "active" : ""
+                  }`}
                 onClick={() => setActiveCategory(category)}
               >
                 {category}
