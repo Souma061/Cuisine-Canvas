@@ -3,7 +3,6 @@
   animation: fadeIn 0.6s ease-in;
 }
 
-/* Hero Section */
 .menu-hero {
   background: linear-gradient(
     135deg,
@@ -52,7 +51,6 @@
   animation: slideUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s both;
 }
 
-/* Search Section */
 .search-section {
   position: relative;
   margin-bottom: 40px;
@@ -94,7 +92,6 @@
   transition: opacity 0.3s ease;
 }
 
-/* Category Tabs */
 .category-tabs-wrapper {
   overflow-x: auto;
   overflow-y: hidden;
@@ -181,7 +178,6 @@
   font-weight: 800;
 }
 
-/* Items Section */
 .items-section {
   padding: 0 20px 60px 20px;
   animation: slideUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.5s both;

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import {
+  calculateCustomizationCost,
   calculateUnitPrice,
   formatCustomizationDisplay,
 } from "../utils/cartCalculations";
@@ -41,6 +42,10 @@ const CustomizationModal = ({ menuItem, onClose, onAddToCart }) => {
     customizations,
     menuItem
   );
+  const customizationCost = calculateCustomizationCost(
+    customizations,
+    menuItem
+  );
   const lineTotal = unitPrice * quantity;
   const customizationDisplay = formatCustomizationDisplay(
     customizations,
@@ -77,12 +82,11 @@ const CustomizationModal = ({ menuItem, onClose, onAddToCart }) => {
           <p className="description">{menuItem.description}</p>
 
           {/* Show customization cost breakdown */}
-          {Object.keys(customizations).length > 0 &&
-            unitPrice > menuItem.price && (
-              <div className="customization-cost-info">
-                Customization Cost: +₹{(unitPrice - menuItem.price).toFixed(2)}
-              </div>
-            )}
+          {Object.keys(customizations).length > 0 && customizationCost > 0 && (
+            <div className="customization-cost-info">
+              Customization Cost: +₹{customizationCost.toFixed(2)}
+            </div>
+          )}
 
           {customizationDisplay && (
             <p className="customization-preview">{customizationDisplay}</p>

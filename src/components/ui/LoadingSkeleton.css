@@ -1,4 +1,3 @@
-/* Shimmer Animation for Loading Skeleton */
 @keyframes shimmer {
   0% {
     background-position: -1000px 0;
@@ -17,7 +16,6 @@
   }
 }
 
-/* Skeleton Card Container */
 .skeleton-card {
   background: var(--bg-card);
   border-radius: 16px;
@@ -31,7 +29,6 @@
   animation: fadeIn 0.5s ease-in;
 }
 
-/* Skeleton Image */
 .skeleton-image {
   width: 100%;
   padding-top: 100%;
@@ -41,7 +38,6 @@
   animation: shimmer 2s infinite;
 }
 
-/* Skeleton Content Container */
 .skeleton-content {
   padding: 18px;
   display: flex;
@@ -49,7 +45,6 @@
   flex: 1;
 }
 
-/* Skeleton Lines */
 .skeleton-line {
   background: linear-gradient(90deg, #f0f0f0 0%, #e0e0e0 50%, #f0f0f0 100%);
   background-size: 1000px 100%;
@@ -109,7 +104,6 @@
   border-radius: 6px;
 }
 
-/* Skeleton Grid */
 .skeleton-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -119,7 +113,6 @@
   border-radius: 12px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .skeleton-grid {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

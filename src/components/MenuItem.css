@@ -236,7 +236,6 @@
   box-shadow: var(--shadow-md);
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .menu-item-card {
     border-radius: 14px;
@@ -353,7 +352,6 @@
   }
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .menu-item-card {
     border-radius: 10px;

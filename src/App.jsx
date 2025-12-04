@@ -10,10 +10,6 @@ import { CartProvider, useCartContext } from "./context/CartContext";
 import menuData from "./data/menu.json";
 import { useTheme } from "./hooks/useTheme";
 
-/**
- * Main App Component
- * Orchestrates all components and manages app-level state
- */
 function AppContent() {
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isCustomizationOpen, setIsCustomizationOpen] = useState(false);
@@ -28,36 +24,27 @@ function AppContent() {
 
   const handleAddToCart = (menuItem, customizations, quantity) => {
     cart.addItem(menuItem, customizations, quantity);
-    // Show a quick feedback (optional toast notification could go here)
     console.log(`Added ${quantity}x ${menuItem.name} to cart`);
   };
 
   const handleCheckout = () => {
     alert(`Proceeding to checkout with ₹${cart.total.toFixed(2)} total`);
-    // In a real app, this would navigate to a checkout page
   };
 
   return (
     <div className="app">
-      {/* Header */}
       <Header
         cartItemCount={cart.getCartCount()}
         onCartClick={() => setIsCartOpen(true)}
         theme={theme}
         onThemeToggle={toggleTheme}
       />
-
-      {/* Main Content */}
       <main className="app-main">
         {menuData && menuData.data && (
           <MenuCategories menuItems={menuData.data} onAddItem={handleAddItem} />
         )}
       </main>
-
-      {/* Footer */}
       <Footer />
-
-      {/* Customization Modal */}
       {isCustomizationOpen && selectedMenuItem && (
         <CustomizationModal
           menuItem={selectedMenuItem}
@@ -68,8 +55,6 @@ function AppContent() {
           onAddToCart={handleAddToCart}
         />
       )}
-
-      {/* Cart Modal */}
       <CartModal
         isOpen={isCartOpen}
         onClose={() => setIsCartOpen(false)}

@@ -44,6 +44,33 @@ export const calculateUnitPrice = (basePrice, customizationSelections = {}, menu
   return unitPrice;
 };
 
+export const calculateCustomizationCost = (customizationSelections = {}, menuItem) => {
+  let customizationCost = 0;
+
+  if (!menuItem.customizations || menuItem.customizations.length === 0) {
+    return customizationCost;
+  }
+
+  menuItem.customizations.forEach((customization) => {
+    if (customization.type === 'addon' && customizationSelections[customization.id]) {
+      customizationCost += customization.price;
+    }
+  });
+
+  menuItem.customizations.forEach((customization) => {
+    if (customization.type === 'select' && customizationSelections[customization.id]) {
+      const selectedOption = customization.options.find(
+        (opt) => opt.label === customizationSelections[customization.id]
+      );
+      if (selectedOption) {
+        customizationCost += selectedOption.price;
+      }
+    }
+  });
+
+  return customizationCost;
+};
+
 /**
  * Format customization selections for display
  * Returns readable string like "Mild Spice, Extra Paneer (+₹80)"

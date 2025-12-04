@@ -1,14 +1,9 @@
 import "./Header.css";
 
-/**
- * Header Component
- * Top navigation bar with logo, branding, theme toggle, and cart button
- */
 const Header = ({ cartItemCount, onCartClick, theme, onThemeToggle }) => {
   return (
     <header className="header">
       <div className="header-container">
-        {/* Logo Section */}
         <div className="logo-section">
           <div className="logo">🍽️</div>
           <div className="brand-info">
@@ -16,13 +11,9 @@ const Header = ({ cartItemCount, onCartClick, theme, onThemeToggle }) => {
             <p className="brand-tagline">Explore Culinary Masterpieces</p>
           </div>
         </div>
-
-        {/* Tagline Section */}
         <div className="header-tagline">
           <p>Discover exquisite flavors crafted with passion</p>
         </div>
-
-        {/* Theme Toggle Button */}
         <button
           className="theme-toggle-btn"
           onClick={onThemeToggle}
@@ -31,8 +22,6 @@ const Header = ({ cartItemCount, onCartClick, theme, onThemeToggle }) => {
         >
           {theme === "light" ? "🌙" : "☀️"}
         </button>
-
-        {/* Cart Button */}
         <button
           className="cart-button"
           onClick={onCartClick}

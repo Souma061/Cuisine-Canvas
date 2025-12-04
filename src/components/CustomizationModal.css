@@ -211,7 +211,6 @@
   font-weight: 500;
 }
 
-/* Enhanced visual feedback for selected radio buttons */
 .option-label input[type="radio"]:checked {
   filter: drop-shadow(0 0 3px rgba(76, 175, 80, 0.5));
 }
@@ -256,7 +255,6 @@
   font-weight: 500;
 }
 
-/* Enhanced visual feedback for checked addons */
 .addon-label input[type="checkbox"]:checked {
   accent-color: #4caf50;
   filter: drop-shadow(0 0 3px rgba(76, 175, 80, 0.5));
@@ -417,7 +415,6 @@
   transform: translateY(0);
 }
 
-/* Scrollbar styling */
 .customization-modal::-webkit-scrollbar {
   width: 6px;
 }
