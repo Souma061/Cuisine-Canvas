@@ -63,6 +63,23 @@ const MenuCategories = ({ menuItems, onAddItem }) => {
     }
   }, [displayCategory]);
 
+  const handleScroll = (direction) => {
+    if (categoryTabsRef.current) {
+      const scrollAmount = 300;
+      if (direction === "left") {
+        categoryTabsRef.current.scrollBy({
+          left: -scrollAmount,
+          behavior: "smooth",
+        });
+      } else {
+        categoryTabsRef.current.scrollBy({
+          left: scrollAmount,
+          behavior: "smooth",
+        });
+      }
+    }
+  };
+
   return (
     <div className="menu-categories">
       {/* Hero Section */}
@@ -94,20 +111,36 @@ const MenuCategories = ({ menuItems, onAddItem }) => {
       </div>
 
       {/* Category Tabs */}
-      <div className="category-tabs-wrapper" ref={categoryTabsRef}>
-        <div className="category-tabs">
-          {filteredCategories.map((category) => (
-            <button
-              key={category}
-              className={`category-tab ${
-                displayCategory === category ? "active" : ""
-              }`}
-              onClick={() => setActiveCategory(category)}
-            >
-              {category}
-            </button>
-          ))}
+      <div className="category-tabs-container">
+        <button
+          className="scroll-button scroll-left"
+          onClick={() => handleScroll("left")}
+          aria-label="Scroll categories left"
+        >
+          ◀
+        </button>
+        <div className="category-tabs-wrapper" ref={categoryTabsRef}>
+          <div className="category-tabs">
+            {filteredCategories.map((category) => (
+              <button
+                key={category}
+                className={`category-tab ${
+                  displayCategory === category ? "active" : ""
+                }`}
+                onClick={() => setActiveCategory(category)}
+              >
+                {category}
+              </button>
+            ))}
+          </div>
         </div>
+        <button
+          className="scroll-button scroll-right"
+          onClick={() => handleScroll("right")}
+          aria-label="Scroll categories right"
+        >
+          ▶
+        </button>
       </div>
 
       {/* Items Grid */}
