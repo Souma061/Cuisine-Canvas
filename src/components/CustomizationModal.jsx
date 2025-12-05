@@ -70,6 +70,7 @@ const CustomizationModal = ({ menuItem, onClose, onAddToCart }) => {
             src={menuItem.image}
             alt={menuItem.name}
             className="modal-image"
+            loading="lazy"
           />
           <button className="close-btn" onClick={onClose}>
             ✕

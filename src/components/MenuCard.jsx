@@ -9,7 +9,12 @@ const MenuCard = ({ item, onAddClick }) => {
     <div className="menu-item-card">
       {/* Image and Badges */}
       <div className="item-image-container">
-        <img src={item.image} alt={item.name} className="item-image" />
+        <img
+          src={item.image}
+          alt={item.name}
+          className="item-image"
+          loading="lazy"
+        />
         <div className="item-badges">
           {item.isVegetarian ? (
             <span className="badge vegetarian">🌱 Veg</span>

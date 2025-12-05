@@ -285,6 +285,16 @@ select:focus {
   box-shadow: 0 0 0 3px rgba(212, 165, 116, 0.1);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+img[loading="lazy"] {
+  background: var(--bg-secondary);
+}
+
 ::selection {
   background: var(--primary-color);
   color: white;
