@@ -126,7 +126,7 @@
       "rating": 4.6,
       "prepTime": 20,
       "image": "https://i.pinimg.com/1200x/b5/2a/65/b52a65088906a0476583b9eb5052ea62.jpg",
-      "isVegetarian": true,
+      "isVegetarian": false,
       "tags": [
         "fried",
         "snack"
