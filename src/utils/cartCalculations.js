@@ -1,20 +1,10 @@
-/**
- * Cart Calculations Utility
- * Handles complex pricing, customization calculations, and item grouping logic
- */
 
-/**
- * Generate unique ID for cart item based on menu item and customizations
- * Items with different customizations are treated as separate line items
- */
 export const generateCartItemId = (menuItemId, customizationSelections = {}) => {
   const customizationString = JSON.stringify(customizationSelections);
   return `${menuItemId}_${customizationString}`;
 };
 
-/**
- * Calculate unit price with all customizations applied
- */
+
 export const calculateUnitPrice = (basePrice, customizationSelections = {}, menuItem) => {
   let unitPrice = basePrice;
 
@@ -29,7 +19,7 @@ export const calculateUnitPrice = (basePrice, customizationSelections = {}, menu
     }
   });
 
-  // Handle select type customizations (like spice level with price modifier)
+  
   menuItem.customizations.forEach((customization) => {
     if (customization.type === 'select' && customizationSelections[customization.id]) {
       const selectedOption = customization.options.find(
@@ -71,10 +61,7 @@ export const calculateCustomizationCost = (customizationSelections = {}, menuIte
   return customizationCost;
 };
 
-/**
- * Format customization selections for display
- * Returns readable string like "Mild Spice, Extra Paneer (+₹80)"
- */
+
 export const formatCustomizationDisplay = (customizationSelections = {}, menuItem) => {
   if (!menuItem.customizations || menuItem.customizations.length === 0 || Object.keys(customizationSelections).length === 0) {
     return '';
@@ -96,22 +83,19 @@ export const formatCustomizationDisplay = (customizationSelections = {}, menuIte
   return parts.length > 0 ? `— ${parts.join(', ')}` : '';
 };
 
-/**
- * Create a new cart item with all necessary calculations
- */
 export const createCartItem = (menuItem, customizationSelections = {}, quantity = 1) => {
   const unitPrice = calculateUnitPrice(menuItem.price, customizationSelections, menuItem);
   const cartItemId = generateCartItemId(menuItem.id, customizationSelections);
   const lineItemPrice = unitPrice * quantity;
 
   return {
-    cartItemId, // Unique ID for this cart item
+    cartItemId,
     menuItemId: menuItem.id,
     name: menuItem.name,
     basePrice: menuItem.price,
-    unitPrice, // Price with customizations applied
+    unitPrice,
     quantity,
-    lineItemPrice, // unitPrice * quantity
+    lineItemPrice,
     customizationSelections,
     customizationDisplay: formatCustomizationDisplay(customizationSelections, menuItem),
     image: menuItem.image,
@@ -120,10 +104,7 @@ export const createCartItem = (menuItem, customizationSelections = {}, quantity 
   };
 };
 
-/**
- * Add item to cart with intelligent grouping
- * If item with same customizations exists, increase quantity instead of creating duplicate
- */
+
 export const addToCartOptimized = (cartItems, menuItem, customizationSelections = {}, quantity = 1) => {
   const cartItemId = generateCartItemId(menuItem.id, customizationSelections);
 
